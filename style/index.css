@@ -1,0 +1,62 @@
+.left {
+    padding: 0;
+}
+
+/* start Section 2*/
+#section2 {
+    padding: 40px 0;
+}
+
+.title {
+    color: blue;
+    font-weight: 600;
+}
+
+.search {
+    width: 90%;
+    float: left;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 10px 15px;
+    outline: none;
+}
+
+.searchIcon {
+    width: 10%;
+    float: left;
+    padding: 10px 5px;
+    font-size: 25px;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.searchIcon:hover {
+    background-color: red;
+    color: #fff;
+}
+
+.wishlist, .cart {
+    text-align: right;
+}
+
+/* start Section 4*/
+#section4 {
+    background-image: url('../assets/banner_background.jpg');
+}
+
+#section4 div.row {
+    padding: 100px 0;
+}
+
+#sectionN .row .col-7 {
+}
+
+#sectionN .row .col-5 input {
+    margin-right: 0;
+    border-radius: 0 0 5px 5px;
+}
+
+#sectionN .row .col-5 button {
+    margin-left: 0;
+    border-radius: 0 5px 0 0;
+}
